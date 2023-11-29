@@ -1,0 +1,21 @@
+$bg_hero: #640fc5;
+$c_heading: #2a0650;
+$c_paragraf: #c6d6c4;
+
+header{
+    background-color: $bg_hero;
+	
+}
+
+h1{
+    color: $c_heading;
+}
+
+p{
+    color: $c_paragraf;
+}
+
+.nav-link{
+    color: var(--bs-light);
+}
+

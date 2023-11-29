@@ -1,0 +1,55 @@
+header {
+  background-color: #640fc5;
+}
+
+h1 {
+  color: #2a0650;
+}
+
+p {
+  color: #c6d6c4;
+}
+
+.nav-link {
+  color: var(--bs-light);
+}
+
+.btn1 {
+  background-color: var(--bs-btn-hover-border-color);
+}
+
+.btn2 {
+  background-color: var(--bs-orange);
+}
+
+.btn3 {
+  background-color: var(--bs-success);
+}
+
+#colonna-destra {
+  animation: fadein 1s ease 0.5s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#h1-anime {
+  animation: fadein 1s ease 1s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
